@@ -20,6 +20,9 @@
 [react-firebase-hooks]
 [firebase]
 
+ソース管理
+[gitHub]
+
 ※参考にした動画　https://www.youtube.com/watch?v=zQyrwxMPm88
 上記の通りにコーディングをすると
 export 'default' (imported as 'firebase') was not found in 'firebase/app'
