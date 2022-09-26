@@ -1,0 +1,29 @@
+ブラウザ環境
+[Microsoft Ege]
+
+統合開発環境
+[visual stdio code]
+
+データベース
+[firebase]
+
+プロジェクト作成場所
+[デスクトップ画面]
+
+保存フォルダ
+[chatApp]
+
+プロジェクト名
+[chatdemo]
+
+パッケージモジュール
+[react-firebase-hooks]
+[firebase]
+
+※参考にした動画　https://www.youtube.com/watch?v=zQyrwxMPm88
+上記の通りにコーディングをすると
+export 'default' (imported as 'firebase') was not found in 'firebase/app'
+というエラーメッセージが複数出てくる。
+回避方法としては、既存のインポート箇所
+import firebase from 'firebase/______ /app'[______]←この部分に[compat]を付け加える
+同じようにfirestoreとauthの部分にも付け加えることでエラーが消えてうまくいきます。
