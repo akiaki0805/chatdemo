@@ -47,7 +47,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ##Image
 
-![図４.pnghttps://github.com/akiaki0805/chatdemo/blob/main/%E5%9B%B34.png?raw=true
+![図４](https://github.com/akiaki0805/chatdemo/blob/main/%E5%9B%B34.png?raw=true)
 
 ### Code Splitting
 
